@@ -52,9 +52,8 @@ OPTIONS=(
 # Function to display notifications
 notify() {
     local message=$1
-    local expire_time=${2:-10}
     if command -v notify-send &>/dev/null; then
-        notify-send "$message" --expire-time="$expire_time"
+        notify-send "$message"
     fi
     log_action "$message"
 }

@@ -15,12 +15,13 @@ WIDTH=90
 CHOICE_HEIGHT=10
 
 # Titles and messages
-BACKTITLE="Fedorable v2.0 - A Fedora Post Install Setup Util for GNOME - By Smittix - https://smittix.net"
+BACKTITLE="Fedorable v2.0 - A Fedora Post Install Setup Util for GNOME - By thefoqs"
 TITLE="Please Make a Selection"
 MENU="Please Choose one of the following options:"
 
 # Other variables
 OH_MY_ZSH_URL="https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh"
+STARSHIP_URL="https://starship.rs/install.sh"
 LOG_FILE="setup_log.txt"
 
 # Log function
@@ -117,7 +118,7 @@ install_oh_my_zsh() {
     sudo dnf install -y zsh curl util-linux-user
     sudo -u "$SUDO_USER" sh -c "$(curl -fsSL $OH_MY_ZSH_URL)" "" --unattended
     sudo -u "$SUDO_USER" chsh -s "$(which zsh)"
-    sudo -u "$SUDO_USER" curl -sS https://starship.rs/install.sh | sh
+    sudo -u "$SUDO_USER" sh -c "$(curl -sS $STARSHIP_URL)"
     sudo -u "$SUDO_USER" echo 'eval "$(starship init zsh)"' >> ~/.zshrc
     notify "Oh-My-Zsh is ready to rock n roll"
 }
@@ -226,7 +227,7 @@ while true; do
         6) install_oh_my_zsh ;;
         7) install_extras ;;
         8) install_nvidia ;;
-        9) 
+        9)
             # Customization menu
             while true; do
                 CUSTOM_CHOICE=$(dialog --clear --backtitle "Fedora System Configuration" \
@@ -241,7 +242,7 @@ while true; do
                     7 "Perform All Tasks" \
                     8 "Exit" \
                     3>&1 1>&2 2>&3)
-                
+
                 case $CUSTOM_CHOICE in
                     1) set_hostname ;;
                     2) setup_fonts ;;
@@ -259,4 +260,3 @@ while true; do
         *) log_action "Invalid option selected: $CHOICE";;
     esac
 done
-

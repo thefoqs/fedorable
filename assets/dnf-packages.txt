@@ -1,5 +1,4 @@
 gnome-tweaks
-gnome-extensions-app
 gnome-shell-extension-caffeine
 gnome-shell-extension-appindicator
 firewall-config

@@ -1,3 +1,4 @@
 com.discordapp.Discord
 me.timschneeberger.jdsp4linux
 io.ente.auth
+com.mattjakeman.ExtensionManager

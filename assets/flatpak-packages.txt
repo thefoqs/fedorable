@@ -1,4 +1,7 @@
-com.discordapp.Discord
-me.timschneeberger.jdsp4linux
-io.ente.auth
-com.mattjakeman.ExtensionManager
+com.discordapp.Discord # Discord
+me.timschneeberger.jdsp4linux # JamesDSP
+io.ente.auth # Ente Auth
+com.mattjakeman.ExtensionManager # Extension Manager
+io.github.getnf.embellish # Embellish (Nerd Font Manager)
+com.github.johnfactotum.Foliate # Foliate
+im.bernard.Memorado # Memorando

@@ -8,3 +8,5 @@ md.obsidian.Obsidian # Obsidian
 net.ankiweb.Anki # Anki Linux
 org.localsend.localsend_app # Localsend
 org.kde.okular # Okular
+org.gimp.GIMP # Gimp
+org.inkscape.Inkscape # Inkscape

@@ -10,7 +10,5 @@ unzip
 unrar
 nmap
 wireshark
-gimp
-inkscape
 qbittorrent
 libreoffice

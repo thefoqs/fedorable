@@ -4,4 +4,7 @@ io.ente.auth # Ente Auth
 com.mattjakeman.ExtensionManager # Extension Manager
 io.github.getnf.embellish # Embellish (Nerd Font Manager)
 com.github.johnfactotum.Foliate # Foliate
-im.bernard.Memorado # Memorando
+md.obsidian.Obsidian # Obsidian
+net.ankiweb.Anki # Anki Linux
+org.localsend.localsend_app # Localsend
+org.kde.okular # Okular

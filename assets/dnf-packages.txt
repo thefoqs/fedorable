@@ -1,6 +1,7 @@
 gnome-tweaks
 firewall-config
 htop
+syncthing
 fastfetch
 p7zip
 p7zip-plugins

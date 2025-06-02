@@ -7,7 +7,6 @@ fi
 echo "Installing Proton VPN GTK App"
 
 # Step 1: Download Proton VPN rpm package
-cd ~/Downloads
 wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.3-1.noarch.rpm"
 
 # Step 2: Enable Proton VPN repository
@@ -16,5 +15,5 @@ sudo dnf install -y ./protonvpn-stable-release-1.0.3-1.noarch.rpm && sudo dnf ch
 # Step 3: Install proton-vpn-gtk-app
 sudo dnf install -y proton-vpn-gnome-desktop "" --unattended
 
-# Step 5: Remove downloaded rpm package
+# Step 4: Remove downloaded rpm package
 rm ./protonvpn-stable-release-1.0.3-1.noarch.rpm

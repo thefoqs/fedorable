@@ -1,12 +1,11 @@
-com.discordapp.Discord # Discord
-me.timschneeberger.jdsp4linux # JamesDSP
-io.ente.auth # Ente Auth
-com.mattjakeman.ExtensionManager # Extension Manager
-io.github.getnf.embellish # Embellish (Nerd Font Manager)
-com.github.johnfactotum.Foliate # Foliate
-md.obsidian.Obsidian # Obsidian
-net.ankiweb.Anki # Anki Linux
-org.localsend.localsend_app # Localsend
-org.kde.okular # Okular
-org.gimp.GIMP # Gimp
-org.inkscape.Inkscape # Inkscape
+me.timschneeberger.jdsp4linux
+io.ente.auth
+com.mattjakeman.ExtensionManager
+io.github.getnf.embellish
+com.github.johnfactotum.Foliate
+md.obsidian.Obsidian
+net.ankiweb.Anki
+org.localsend.localsend_app
+org.kde.okular
+org.gimp.GIMP
+org.inkscape.Inkscape

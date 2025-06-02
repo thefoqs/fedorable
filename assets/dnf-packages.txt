@@ -7,6 +7,5 @@ p7zip-plugins
 unzip
 unrar
 nmap
-wireshark
 qbittorrent
 libreoffice

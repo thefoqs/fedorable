@@ -16,8 +16,5 @@ sudo dnf install -y ./protonvpn-stable-release-1.0.3-1.noarch.rpm && sudo dnf ch
 # Step 3: Install proton-vpn-gtk-app
 sudo dnf install -y proton-vpn-gnome-desktop "" --unattended
 
-# Step 4: Enable Gnome tray icon support
-sudo dnf install libappindicator-gtk3 gnome-shell-extension-appindicator gnome-extensions-app # Add Gnome tray support
-
 # Step 5: Remove downloaded rpm package
 rm ./protonvpn-stable-release-1.0.3-1.noarch.rpm

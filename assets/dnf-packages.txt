@@ -1,6 +1,4 @@
 gnome-tweaks
-gnome-shell-extension-caffeine
-gnome-shell-extension-appindicator
 firewall-config
 htop
 fastfetch

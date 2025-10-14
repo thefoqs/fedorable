@@ -13,7 +13,7 @@ It provides an interactive `dialog`-based menu for installing software, enabling
 ## Features
 
 Fedorable can:
-- Enable additional repositories (e.g. RPM Fusion, Flathub)
+- Enable additional repositories (e.g. RPM Fusion, Flathub, Homebrew)
 - Install essential software and fonts
 - Configure GNOME appearance and behaviour
 - Install hardware drivers
@@ -36,7 +36,7 @@ Fedorable will install `dialog` automatically if it is missing.
 Clone this repository and run the script:
 
 ```bash
-git clone https://github.com/smittix/fedorable.git
+git clone https://github.com/thefoqs/fedorable.git
 cd fedorable
 chmod +x fedorable.sh
 sudo ./fedorable.sh
@@ -60,6 +60,7 @@ Fedorable’s interface is divided into **five main sections**:
 ### **System Setup**
 
 * **Enable RPM Fusion** – Enables free & non-free RPM Fusion repositories.
+* **Enable Homebrew** - Enables Homebrew package manager.
 * **Update Firmware** – Checks and installs firmware updates.
 * **Optimise DNF Speed** – Enables parallel downloads for faster package installs.
 * **Enable Flathub** – Adds the Flathub repository and installs Flatpak apps listed in `assets/flatpak-packages.txt`.
@@ -67,8 +68,9 @@ Fedorable’s interface is divided into **five main sections**:
 ### **Software Installation**
 
 * **Install Software Packages** – Installs packages listed in `assets/dnf-packages.txt`.
-* **Install Oh-My-ZSH** – Installs ZSH, Oh-My-ZSH, plugins, and Starship prompt.
+* **Install Fish & Starship** – Installs Fish & Starship prompt.
 * **Install Extras (Fonts & Codecs)** – Installs extra fonts, media codecs, and icon themes (without switching themes).
+* **Install External Software** - Installs Koodo Reader, Brave, Proton VPN App, Mullvad Browser & Dangerzone.
 
 ### **Hardware Drivers**
 

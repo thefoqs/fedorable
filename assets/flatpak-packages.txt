@@ -1,7 +1,12 @@
-org.signal.Signal
-com.discordapp.Discord
-org.gnome.DejaDup
 io.missioncenter.MissionCenter
-it.mijorus.gearlever
-md.obsidian.Obsidian
 me.timschneeberger.jdsp4linux
+io.github.flattool.Warehouse
+com.github.tchx84.Flatseal
+dev.bragefuglseth.Keypunch
+com.discordapp.Discord
+md.obsidian.Obsidian
+it.mijorus.gearlever
+dev.geopjr.Collision
+org.signal.Signal
+org.gnome.DejaDup
+org.gnome.Solanum

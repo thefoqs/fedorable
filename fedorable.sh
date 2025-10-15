@@ -106,6 +106,14 @@ install_software() {
     dialog --msgbox "Package list not found." 10 50
 }
 
+install_homebrew_software() {
+  if [[ -f ./assets/homebrew-packages.txt ]]; then
+    sudo -H -u "$ACTUAL_USER" bash -lc "eval \$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    export HOMEBREW_NO_AUTO_UPDATE=1
+    brew install $(<./homebrew-packages.txt)
+  fi
+}
+
 install_starship_fish() {
   dnf install -y fish curl git
   FISH_PATH=$(command -v fish)

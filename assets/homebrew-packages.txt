@@ -1,0 +1,8 @@
+fastfetch
+ast-grep
+ripgrep
+lazygit
+neovim
+bat
+fzf
+fd

@@ -1,6 +1,7 @@
 io.missioncenter.MissionCenter
 me.timschneeberger.jdsp4linux
 io.github.flattool.Warehouse
+org.localsend.localsend_app
 com.github.tchx84.Flatseal
 dev.bragefuglseth.Keypunch
 com.discordapp.Discord
